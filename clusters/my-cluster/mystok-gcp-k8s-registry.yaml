@@ -5,6 +5,6 @@ metadata:
   name: mystok-gcp-k8s
   namespace: flux-system
 spec:
-  image: docker.io/dekabitasp/mystok-gcp-app-prod
+  image: dekabitasp/mystok-gcp-app-prod
   interval: 1m0s
 
