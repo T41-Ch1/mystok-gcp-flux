@@ -8,7 +8,7 @@ spec:
   checkout:
     branch: main
     gitRepositoryRef:
-      name: flux-system
+      name: mystok-gcp-k8s
   commit:
     authorEmail: fluxcdbot@users.noreply.github.com
     authorName: fluxcdbot
