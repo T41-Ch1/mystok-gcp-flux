@@ -1,0 +1,10 @@
+---
+apiVersion: image.toolkit.fluxcd.io/v1alpha1
+kind: ImageRepository
+metadata:
+  name: mystok-gcp-k8s
+  namespace: flux-system
+spec:
+  image: docker.io/dekabitasp/mystok-gcp-app-prod
+  interval: 1m0s
+

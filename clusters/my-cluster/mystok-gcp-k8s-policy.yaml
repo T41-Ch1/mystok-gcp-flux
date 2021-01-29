@@ -1,0 +1,12 @@
+---
+apiVersion: image.toolkit.fluxcd.io/v1alpha1
+kind: ImagePolicy
+metadata:
+  name: mystok-gcp-k8s
+  namespace: flux-system
+spec:
+  imageRepositoryRef:
+    name: mystok-gcp-k8s
+  policy:
+    alphabetical:
+      order: asc
