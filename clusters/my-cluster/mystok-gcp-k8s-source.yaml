@@ -1,0 +1,12 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: mystok-gcp-k8s
+  namespace: flux-system
+spec:
+  interval: 30s
+  ref:
+    branch: main
+  url: https://github.com/T41-Ch1/mystok-gcp-k8s
+
